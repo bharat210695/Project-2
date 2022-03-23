@@ -49,7 +49,7 @@ const internSchema = new mongoose.Schema({
         type: Boolean,
         default: false
     }
-}, )
+}, { timestamp: true })
 
 
 module.exports = mongoose.model("Intern", internSchema)
