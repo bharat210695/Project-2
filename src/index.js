@@ -15,7 +15,7 @@ mongoose.connect("mongodb+srv://arnabbiswas_14:arnabbiswas@cluster0.b95gv.mongod
     .catch(err => console.log(err))
 
 
-app.use('/', route);
+app.use('/functionup', route);
 
 
 app.listen(process.env.PORT || 3000, function() {
